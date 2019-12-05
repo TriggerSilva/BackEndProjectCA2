@@ -13,7 +13,6 @@
                         <tr>
                             <th>Title</th>
                             <th>Price</th>
-                            <th>Description</th>
                         </tr>
                     </thead>
                     <tbody>

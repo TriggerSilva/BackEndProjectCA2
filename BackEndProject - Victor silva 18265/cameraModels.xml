@@ -1,64 +1,63 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?xml-stylesheet type="text/xsl" href="cameraModels.xsl"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <cameraModels>
-    
-    <section name="Camera Type">
-         <entree>
-             <item>Camera Sony DSC-H300 </item>
-             <price>600.00</price>
-         </entree>
-         <entree>
-             <item>Canon EOS 4000D DSLR Camera and EF-S 18-55 mm f/3.5-5.6 III Lens - Black</item>
-             <price>260.00</price>
-        </entree>
-         <entree>
-             <item>Canon EOS 250D + Canon EF-s 18-55mm f/4-5.6 IS STM Lens - Black</item>
-             <price>480.00</price>
-        </entree>
-    </section>
-
-    <section name="Camera Lenses">
-
-        <entree>
-            <item>Canon EF 50mm f/1.8 STM</item>
-            <price>99.00</price>
-        </entree>
-        <entree>
-            <item>SONY tele lens for 30MM cams</item>
-            <price>200.00</price>
-        </entree>
-        <entree>
-            <item>Canon EF 75-300mm f/4-5.6 III</item>
-            <price>136.50</price>
-        </entree>
-    </section>
-    <section name="Tripods">
-        <entree>
-            <item>Camera Tripod ESDDI 70inches Compact Lightweight Aluminum Tripod</item>
-            <price>30.00</price>
-        </entree>
-        <entree>
-            <item>Aluminum Video Camera Tripod Monopod with 3-Way</item>
-            <price>50.00</price>
-        </entree>
-        <entree>
-            <item>Portable 56 inches/142 centimeters Aluminum Camera Tripod</item>
-            <price>25.00</price>
-        </entree>
-        
-    </section>
-    <section name="Gimbals">
-        <entree>
-            <item>3-Axis Gimbal Stabilizer for Smartphone - with Face Tracking Motion </item>
-            <price>89.00</price>
-        </entree>
-        <entree>
-            <item>Gimbal Stabilizer 3-Axis Handheld Ultra-lightweight for Mirrorless DSLR Cameras</item>
-            <price>260.00</price>
-        </entree>
-        <entree>
-            <item>ZHIYUN CRANE PLUS OFFICIAL 3-Axis Handheld Gimbal Camera Stabilize</item>
-            <price>450.00</price>
-        </entree>
-    </section>
+  <section name="Camera Type">
+    <entree>
+      <item>Camera Sony DSC-H300 </item>
+      <price>600.00</price>
+    </entree>
+    <entree>
+      <item>Canon EOS 4000D DSLR Camera and EF-S 18-55 mm f/3.5-5.6 III Lens - Black</item>
+      <price>260.00</price>
+    </entree>
+    <entree>
+      <item>Canon EOS 250D + Canon EF-s 18-55mm f/4-5.6 IS STM Lens - Black</item>
+      <price>480.00</price>
+    </entree>
+  </section>
+  <section name="Camera Lenses">
+    <entree>
+      <item>Canon EF 50mm f/1.8 STM</item>
+      <price>99.00</price>
+    </entree>
+    <entree>
+      <item>SONY tele lens for 30MM cams</item>
+      <price>200.00</price>
+    </entree>
+    <entree>
+      <item>Canon EF 75-300mm f/4-5.6 III</item>
+      <price>136.50</price>
+    </entree>
+    <entree>
+      <item/>
+      <price/>
+    </entree>
+  </section>
+  <section name="Tripods">
+    <entree>
+      <item>Camera Tripod ESDDI 70inches Compact Lightweight Aluminum Tripod</item>
+      <price>30.00</price>
+    </entree>
+    <entree>
+      <item>Aluminum Video Camera Tripod Monopod with 3-Way</item>
+      <price>50.00</price>
+    </entree>
+    <entree>
+      <item>Portable 56 inches/142 centimeters Aluminum Camera Tripod</item>
+      <price>25.00</price>
+    </entree>
+  </section>
+  <section name="Gimbals">
+    <entree>
+      <item>3-Axis Gimbal Stabilizer for Smartphone - with Face Tracking Motion </item>
+      <price>89.00</price>
+    </entree>
+    <entree>
+      <item>Gimbal Stabilizer 3-Axis Handheld Ultra-lightweight for Mirrorless DSLR Cameras</item>
+      <price>260.00</price>
+    </entree>
+    <entree>
+      <item>ZHIYUN CRANE PLUS OFFICIAL 3-Axis Handheld Gimbal Camera Stabilize</item>
+      <price>450.00</price>
+    </entree>
+  </section>
 </cameraModels>
