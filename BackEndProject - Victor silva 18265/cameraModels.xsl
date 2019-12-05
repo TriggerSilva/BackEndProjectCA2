@@ -17,8 +17,8 @@
                     </thead>
                     <tbody>
                         <xsl:for-each select="/cameraModels/section">
-                            <tr>
-                                <td colspan="3" >
+                            <tr style= "background: rgb(150, 150, 122); font-weight: bold">
+                                <td colspan="3">
 
                                     <xsl:value-of select="@name" />
                                 </td>

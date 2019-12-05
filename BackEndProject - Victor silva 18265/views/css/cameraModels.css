@@ -15,8 +15,10 @@ body {
   /* Set the fixed height of the footer here */
   height: 60px;
   line-height: 60px; /* Vertically center the text there */
-  background-color: #fdc9c9;
+  background-color: #19c213;
 }
+
+
 table, th, td {
      border-collapse: collapse;
      border: 1px solid black;
@@ -28,7 +30,7 @@ table, th, td {
      border-collapse: collapse;
      width:100%;
      text-align: center;
-     background-color: gray;
+     background-color: rgb(180, 180, 180);
 }
 
  td, th {
