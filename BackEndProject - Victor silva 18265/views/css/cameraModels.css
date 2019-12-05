@@ -6,6 +6,7 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  background-color: lightblue;
 }
 .footer {
   position: absolute;
@@ -19,7 +20,7 @@ body {
 table, th, td {
      border-collapse: collapse;
      border: 1px solid black;
-     text-align: center;
+     text-align: left;
     
      
 }
@@ -27,14 +28,18 @@ table, th, td {
      border-collapse: collapse;
      width:100%;
      text-align: center;
+     background-color: gray;
 }
 
  td, th {
-     border: 1px solid #999;
+     border: 2px solid black;
      padding: 0.5rem;
-     text-align: center;
+     text-align: left;
     
 }
+
+
+
  th {
      font-weight: bold;
      text-align: center;
