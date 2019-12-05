@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 
+ 
 
     <xsl:template match="/">
     
@@ -11,6 +12,7 @@
                             <th colspan="3">Camera Dot Com</th>
                         </tr>
                         <tr>
+                            <th>Select</th>
                             <th>Title</th>
                             <th>Price</th>
                         </tr>
@@ -25,7 +27,9 @@
                             </tr>
                             <xsl:for-each select="entree">
                                 <tr id="{position()}">
-                                       
+                                      <td align="center">
+                                        <input name="item0" type="checkbox" />
+                                    </td> 
                                     <td >
                                         <xsl:value-of select="item" />
                                     </td>
@@ -39,5 +43,13 @@
                         </xsl:for-each>
                     </tbody>
                 </table>
+                <p></p>
+                <form class="indent">
+   <p>
+    <input id="calcBill" name="btnCalcBill" type="button" value="Calculate Bill"/>
+    Total: €
+    <input name="txtBillAmt" type="text"/>
+   </p>
+  </form>
     </xsl:template>
 </xsl:stylesheet>
