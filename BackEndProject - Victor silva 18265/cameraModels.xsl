@@ -43,13 +43,6 @@
                         </xsl:for-each>
                     </tbody>
                 </table>
-                <p></p>
-                <form class="indent">
-   <p>
-    <input id="calcBill" name="btnCalcBill" type="button" value="Calculate Bill"/>
-    Total: €
-    <input name="txtBillAmt" type="text"/>
-   </p>
-  </form>
+              
     </xsl:template>
 </xsl:stylesheet>
